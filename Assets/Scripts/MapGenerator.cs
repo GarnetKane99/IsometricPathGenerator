@@ -194,20 +194,10 @@ public class MapGenerator : MonoBehaviour
         if (curDirection == CurrentDirection.LEFT)
         {
             UpdateMap(curX, curY, leftDown);
-            //float posY = mapVisuals[curX, curY].gameObject.transform.position.y + pathOffset;
-            //mapVisuals[curX, curY].gameObject.transform.position = new Vector3
-            //    (mapVisuals[curX, curY].gameObject.transform.position.x, posY);
-
-            //mapVisuals[curX, curY].tileType = MapTileData.TileType.PATH;
         }
         else if (curDirection == CurrentDirection.RIGHT)
         {
             UpdateMap(curX, curY, rightDown);
-            //float posY = mapVisuals[curX, curY].gameObject.transform.position.y + pathOffset;
-            //mapVisuals[curX, curY].gameObject.transform.position = new Vector3
-            //    (mapVisuals[curX, curY].gameObject.transform.position.x, posY);
-
-            //mapVisuals[curX, curY].tileType = MapTileData.TileType.PATH;
         }
 
         if (curDirection == CurrentDirection.LEFT || curDirection == CurrentDirection.RIGHT)

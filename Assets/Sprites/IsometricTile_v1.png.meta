@@ -251,27 +251,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: IsometricTile_v1_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3b24b054f7de4d50a852d71fa95be10
-      internalID: 62335308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -288,7 +267,6 @@ TextureImporter:
       IsometricTile_v1_3: 440219974
       IsometricTile_v1_2: 2036521055
       IsometricTile_v1_6: 2064998458
-      IsometricTile_v1_7: 62335308
       IsometricTile_v1_4: -516619926
       IsometricTile_v1_5: -1858555889
   spritePackingTag: 
